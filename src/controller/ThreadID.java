@@ -10,9 +10,9 @@ public class ThreadID extends Thread {
 
 	@Override
 	public void run() {
-		System.out.println(idThread);
+		System.out.println("#" + getId());
+	    
 	}
-	
-	
-	
+
+
 }
